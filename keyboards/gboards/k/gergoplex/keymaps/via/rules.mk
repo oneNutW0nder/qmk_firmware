@@ -16,9 +16,9 @@ COMBO_ENABLE			= yes
 EXTRAKEY_ENABLE		= yes
 CONSOLE_ENABLE  	= yes
 COMMAND_ENABLE		= yes
-BOOTMAGIC_ENABLE  = lite
+BOOTMAGIC_ENABLE  = yes
 VIA_ENABLE				= yes
 
-DEBOUNCE_TYPE  = eager_pr
+DEBOUNCE_TYPE  = sym_eager_pr
 SRC += matrix.c
 QUANTUM_LIB_SRC += i2c_master.c
